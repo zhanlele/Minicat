@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>quanleServle</servlet-name>
+        <servlet-class>server.QuanleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>quanleServle</servlet-name>
+        <url-pattern>/demo2/s2</url-pattern>
+    </servlet-mapping>
+</web-app>
